@@ -1,0 +1,129 @@
+body{
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem; 
+    line-height: 1.6em;
+    margin: 0 auto;
+   
+    
+
+}
+.img{
+
+     background: url(../img/menu-3356827.jpg) transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    
+
+  
+    
+}
+.img1{
+    background: url(../img/feather-3010848.jpg) center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.img2{
+    background: url(../img/beach-1236581.jpg) center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.txt{
+    color:black;
+    
+}
+.txt a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.txt a:hover{
+    background-color: darkgray;
+}
+.lista li{
+    list-style: none;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0.5rem ;
+}
+.header { 
+    color: white;
+    background: #333;
+    padding: 1rem 0;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+.main {
+    padding-top: 12rem;
+    color: white;
+    
+}
+
+.logo{
+    padding-left: 5rem;
+}
+.navegation ul  a{
+    color: white;
+    margin: 0;
+    padding: 3em;
+    list-style: none;
+   text-decoration: none;
+    
+}
+
+.navegation ul li {
+  
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+     }
+     .navegation ul li:hover {
+
+        background-color: darkgrey;
+        transition: all 1s;
+             }
+     
+.logo-nav-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+} 
+.menu li a{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.color{
+   background: rgb(4, 4, 4) ;
+   opacity: 0.7;
+}
+input{
+   border: 0.5rem;
+   
+}
+input:hover { 
+    background-color:aliceblue;
+  
+   
+}
+
+.espace{
+    height: 100px;
+    width: 155px;
+   
+
+}
